@@ -5938,7 +5938,7 @@ class DS_Dictionary {
     bool rectFromString(std::string const&, cocos2d::CCRect&) = imac 0x159690, m1 0x12523c;
     void removeAllKeys() = imac 0x15cb70, m1 0x128034;
     void removeKey(char const*) = imac 0x15ca80, m1 0x127f50, ios 0x1e8948;
-    void removeKey(unsigned int) = imac 0x15c9a0, m1 0x127e74;
+    void removeKey(unsigned int) = imac 0x15c9a0, m1 0x127e74, ios 0x1e8948;
     bool saveRootSubDictToCompressedFile(char const*) = m1 0x50a3e4;
     bool saveRootSubDictToFile(char const*) = imac 0x15a740, m1 0x126194;
     std::string saveRootSubDictToString() = imac 0x15bb50, m1 0x127238, ios 0x1e8334;
