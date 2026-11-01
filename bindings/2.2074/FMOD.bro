@@ -1,3 +1,5 @@
+#import ios <Geode/fmod/fmod.hpp>
+
 [[link(win, android, mac)]]
 class FMOD::Channel {
     FMOD_RESULT getPosition(unsigned int*, unsigned int) = ios 0x44cf08;
